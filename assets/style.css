@@ -9,11 +9,16 @@ header {
     color: white;
     width: 960px;
     height: 80px;
-    margin-left: 32px;
+    margin-left: 232px;
 }
 
 p {
-    color: gray;
+    color: gray; 
+    line-height: 2;
+}
+
+img {
+    float: left;
 }
 
 hr {
@@ -38,6 +43,7 @@ section {
     bottom: 0;
     left: 0%;
     right: 0%;
+    overflow: scroll;
 }
 
 aside {
@@ -49,6 +55,7 @@ aside {
     background: white;
     padding: 20px;
     margin: 20px;
+    margin-left: 220px;
 }
 
 footer {
@@ -68,6 +75,7 @@ nav {
     
     float: right;
     
+    margin-left: 300px;
 }
 
 nav ul {
@@ -78,7 +86,6 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 10px;
 }
 
 nav ul li a {
@@ -86,7 +93,6 @@ nav ul li a {
     text-decoration: none;
     color: #777777;
     text-align: center;
-
 }
 
 #title {
@@ -112,7 +118,7 @@ nav ul li a {
     height: 200px;
     width: 300px;
     margin-right: 30px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 input[type=text], select, textarea {
@@ -123,7 +129,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 input[type=submit] {
